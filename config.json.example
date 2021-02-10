@@ -1,0 +1,17 @@
+{
+    "timeout": 10,
+    "request_timeout": 10,
+    "kafka": {
+        "bootstrap_servers": ["kafka-***.aivencloud.com:16488"],
+        "topic": "website-checker",
+        "group_id": "test-group",
+        "client_id": "test-consumer",
+        "ssl_cafile": "ca.pem",
+        "ssl_certfile": "service.cert",
+        "ssl_keyfile": "service.key"
+    },
+    "db": {
+        "dsn": "postgres://***:***@***.aivencloud.com:16486/defaultdb?sslmode=require",
+        "max_connections": 3
+    }
+}
