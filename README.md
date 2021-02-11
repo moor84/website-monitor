@@ -22,7 +22,7 @@ network, produces metrics about this and stores in an Aiven PostgreSQL database.
 Simply clone this repository and run pip install:
 
 ```
-git@github.com:moor84/website-monitor.git
+git clone git@github.com:moor84/website-monitor.git
 cd website-monitor
 pip install ./
 ```
